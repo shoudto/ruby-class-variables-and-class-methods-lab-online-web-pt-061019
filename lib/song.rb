@@ -33,7 +33,7 @@ class Song
     genre_hash = {}
 
     @@genres.each do |genre|
-
-    end 
+      if !!genre_hash[genre]
+    end
   end
 end
